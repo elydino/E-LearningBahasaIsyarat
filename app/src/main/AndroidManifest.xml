@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ELearningBahasaIsyarat">
+        <activity
+            android:name=".ui.bookmark.Bookmarks"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.test.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.answer.Answer"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.MyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.test.StartTest"
+            android:exported="false" />
+        <activity
+            android:name=".ui.question.Questions"
+            android:exported="false" />
+        <activity
+            android:name=".ui.account.AccountFragment"
+            android:exported="false" />
+        <activity
+            android:name=".TermsConditions"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".ui.category.CategoryFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.leaderboard.LeaderboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ELearningBahasaIsyarat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

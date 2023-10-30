@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">E-LEARNING BAHASA ISYARAT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_account">My Account</string>
+
+
+    <string name="default_web_client_id" translatable="false">1053506492355-9djfbmc7qc4qb0qd9b4v0qpasfs19nv8.apps.googleusercontent.com</string>
+
+    <string name="website">Contact Us</string>
+    <string name="instagram_page">Follow on Instagram</string>
+    <string name="nav_rate">Rate or Feedback</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_terms_conditions">Terms and Conditions</string>
+    <string name="more">More</string>
+    <string name="nav_logout">Log Out</string>
+</resources>

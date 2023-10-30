@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/bookmark_selected"
+            android:title="Saved Questions" />
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/contact_us"
+            android:title="@string/website" />
+        <item
+            android:id="@+id/instagram"
+            android:icon="@drawable/instagram"
+            android:title="@string/instagram_page" />
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/rating"
+                    android:icon="@drawable/rate"
+                    android:title="@string/nav_rate" />
+
+                <item
+                    android:id="@+id/sharing"
+                    android:icon="@drawable/share"
+                    android:title="@string/nav_share" />
+
+                <item
+                    android:id="@+id/privacyPolicy"
+                    android:icon="@drawable/privacy"
+                    android:title="@string/nav_privacy_policy" />
+
+                <item
+                    android:id="@+id/termsCon"
+                    android:icon="@drawable/terms"
+                    android:title="@string/nav_terms_conditions" />
+
+                <item
+                    android:id="@+id/more"
+                    android:icon="@drawable/more"
+                    android:title="@string/more" />
+
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/logout"
+                    android:title="@string/nav_logout" />
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
